@@ -1,0 +1,75 @@
+<project basedir="." default="build" name="Project">
+
+<available property="srv" value="/home/zheka/glassfish4/glassfish/modules" 
+         file="/home/zheka/glassfish4/glassfish/modules" type="dir" />
+
+	  <path id="project.class.path">
+	    <pathelement location="WebContent/WEB-INF/classes"/>    
+	    <fileset dir="../VNIIA_GWT/WebContent/WEB-INF/lib" 
+includes="gwt-dev.jar"/>
+	  </path>
+	
+<!-- ########### Property Declarations ###################################################################################################################  -->
+<property name="debuglevel" value="source,lines,vars"/>
+<property name="target" value="1.7"/>
+<property name="source" value="1.7"/>
+<property name="builddir" value="build" />
+<property name="outputartifacts" value=".." />
+
+<property name="ejb.name" value="VNIIA_EJB" />
+<property name="ejb.projectpath" value="."/>
+<property name="ejb.src" value="${ejb.projectpath}/ejbModule"/>
+<property name="ejb.builddir" value="${builddir}" />
+<property name="ejb.builddir.classes" value="${ejb.builddir}/classes" />
+<property name="" value="${ejb.builddir}/classes" />
+	
+<!-- ########### Main Targets ###################################################################################################################   -->
+<target name="build" depends="build-ejb">
+</target>
+
+<target name="clean-build">	
+    <antcall target="clean" />
+    <antcall target="build" />
+</target>
+
+<target name="clean">
+    <delete dir="${builddir}"/>
+</target>
+
+<target name="init">
+    <mkdir dir="${outputartifacts}" />
+</target>
+
+<!-- ############## EJB App ################################################################################################################ -->
+<target name="init-ejb" depends="init">
+    <mkdir dir="${ejb.builddir}"/>
+    <copy includeemptydirs="false" todir="${ejb.builddir.classes}">
+        <fileset dir="${ejb.src}">
+            <exclude name="**/*.java"/>
+        </fileset>  
+    </copy>
+</target>
+	
+<target name="build-ejb" depends="init-ejb">
+    <javac debug="true" debuglevel="${debuglevel}" destdir="${ejb.builddir.classes}" includeantruntime="false" source="${source}" target="${target}" fork="true">
+    	<!-- necesary for using double unit-persistent-->
+        <compilerarg value="-proc:none"/>
+    	<src path="${ejb.src}"/>
+    	<classpath refid="project.class.path"/>
+        <classpath>
+            <fileset dir="${srv}">
+                <include name="**/*.jar"/>
+            </fileset>  
+        	<fileset dir="${outputartifacts}">
+	            <include name="**/*.jar"/>
+	        </fileset>
+		</classpath>
+	</javac>
+</target>
+
+<!-- ############ CREATE ARCHIVES################################################################################################################## -->
+
+<target name="create-ejb" depends="build-ejb">
+    <jar destfile="${outputartifacts}/${ejb.name}.jar" basedir="${ejb.builddir.classes}" includes="**/*"/>
+</target>
+</project>

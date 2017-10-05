@@ -1,0 +1,124 @@
+<project basedir="." default="" name="Project">
+
+<!--available property="srv" value="/home/zheka/glassfish4/glassfish/modules" 
+         file="/home/zheka/glassfish4/glassfish/modules" type="dir" /-->
+
+	  <path id="project.class.path">
+	    <pathelement location="WebContent/WEB-INF/classes"/>    
+	    <fileset dir="../VNIIA_GWT/WebContent/WEB-INF/lib" 
+includes="gwt-dev.jar"/>
+
+	  </path>
+	
+<!-- ########### Property Declarations ###################################################################################################################  -->
+<property name="debuglevel" value="source,lines,vars"/>
+<property name="target" value="1.7"/>
+<property name="source" value="1.7"/>
+<property name="builddir" value="build" />
+<property name="outputartifacts" value=".." />
+<!-- use that for JUnit
+<property name="javacJarDir" value="/opt/eclipse/plugins"/-->
+
+<property name="ejb.name" value="VNIIA_EJBClient" />
+<property name="ejbclient.projectpath" value="."/>
+<property name="ejbclient.src" value="${ejbclient.projectpath}/ejbModule"/>
+<property name="ejbclient.builddir" value="${builddir}" />
+<property name="ejbclient.builddir.classes" value="${ejbclient.builddir}/classes" />
+<property name="softRoot" value="C:\Users\35-khei\Desktop\javaSoft" />
+<property name="antLib" value="${softRoot}\ant-1.9.4\lib" />
+<property name="srv" value="${softRoot}\glassfish4\glassfish\modules"/>
+
+
+<!-- ########### Main Targets ###################################################################################################################   -->
+<target name="build" depends="build-ejb-client">
+</target>
+
+<target name="clean-build">	
+    <antcall target="clean" />
+    <antcall target="build" />
+</target>
+
+<target name="clean">
+    <delete dir="${builddir}"/>
+</target>
+
+<target name="init">
+    <mkdir dir="${outputartifacts}" />
+</target>
+
+<!-- ############## EJB CLIENT ################################################################################################################ -->
+<target name="init-ejb-client" depends="init">
+    <mkdir dir="${ejbclient.builddir}"/>
+    <copy includeemptydirs="false" todir="${ejbclient.builddir.classes}">
+        <fileset dir="${ejbclient.src}">
+            <exclude name="**/*.java"/>
+        </fileset>  
+    </copy>
+</target>
+	
+<target name="build-ejb-client" depends="init-ejb-client">
+    <javac debug="true" debuglevel="${debuglevel}" destdir="${ejbclient.builddir.classes}" includeantruntime="false" source="${source}" target="${target}" >
+    	<!-- necesary for using double unit-persistent, or avoid "Bad service configuration file, or exception ..." -->
+    	<compilerarg value="-proc:none"/>
+    	<src path="${ejbclient.src}"/>
+    	<classpath refid="project.class.path"/>
+        <classpath>
+            <fileset dir="${srv}">
+                <include name="**/*.jar"/>
+            </fileset>  
+
+        	<fileset dir="${outputartifacts}">
+	            <include name="**/*.jar"/>
+	        </fileset>
+        	
+    	  	<!--fileset dir="${javacJarDir}">
+    	  		<include name="**/*.jar"/>
+    	  	</fileset-->
+        	
+		</classpath>
+	</javac>
+</target>
+<!--############# JUNIT ########################-->
+<target name="junit-tests" depends="build-ejb-client">
+<junit fork="false" printsummary="on" haltonfailure="no">
+	<classpath>
+		<!--fileset dir="." includes="ant-junit.jar"/-->
+		<!-- copy from /opt/eclipse/plugins/org.testng.eclipse_6.8.6.20130914_0724/lib/ to /mnt/javaSoft/ant-1.9.4/lib-->
+		<fileset dir="${antLib}" includes="junit-4.8.2.jar"/>
+		<pathelement  location="${builddir}\classes"/>
+		<pathelement  location="..\VNIIA_EJB\build\classes"/>
+		<!--pathelement  location="../VNIIA_EJB.jar"/-->
+        <fileset dir="${srv}">
+            <include name="**\*.jar"/>
+        </fileset>  
+
+    	<fileset dir="${outputartifacts}">
+            <include name="**\*.jar"/>
+        </fileset>
+    	
+	  	<!--fileset dir="${javacJarDir}">
+	  		<include name="**\*.jar"/>
+	  	</fileset-->
+	</classpath>
+
+	  <formatter type="plain"/>
+	  <test name="tests.Test" haltonfailure="no" outfile="result">
+	    <formatter type="xml"/>
+	  </test>
+
+	  <!--batchtest fork="yes" todir=".">
+	    <fileset dir="${ejbclient.src}/tests">
+	      <include name="**/Test*.java"/>
+	      <exclude name="**/Tests.java"/>
+	    </fileset>
+	  </batchtest-->
+
+</junit>
+</target>
+
+<!-- ############ CREATE ARCHIVES################################################################################################################## -->
+
+<target name="create-ejb-client" depends="build-ejb-client">
+    <jar destfile="${outputartifacts}/${ejbclient.name}.jar" basedir="${ejbclient.builddir.classes}" includes="**/*"/>
+</target>
+</project>

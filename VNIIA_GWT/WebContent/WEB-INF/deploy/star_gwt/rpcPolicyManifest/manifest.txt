@@ -1,0 +1,3 @@
+# Module star_gwt
+# RPC service class, partial path of RPC policy file
+ru.star.gwt.client.GreetingService, 664B24A6A980AC24BA0A04B99955229D.gwt.rpc

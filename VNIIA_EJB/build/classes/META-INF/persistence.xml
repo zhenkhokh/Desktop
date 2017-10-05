@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="TEST" transaction-type="JTA">
+    <jta-data-source>jdbc/oracle</jta-data-source>
+    <!-- provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>-->
+    <class>model.all.VPersonal</class>
+    <class>model.msysAdmin.VAppModule</class>
+    <class>model.msysAdmin.VApplications</class>
+    <class>model.msysAdmin.VApps</class>
+    <class>model.msysAdmin.VMenu</class>
+    <class>model.msysAdmin.VModules</class>
+    <class>model.msysAdmin.VPrivs</class>
+    <class>model.msysAdmin.VRoles</class>
+    <class>model.msysAdmin.VSetup</class>
+    <class>model.msysAdmin.VUsers</class>
+    <class>model.msysAdmin.VWorkbenches</class>
+    <exclude-unlisted-classes>true</exclude-unlisted-classes>
+    <properties>
+      <property name="hibernate.connection.username" value="MSYS_WEBCON"/>
+      <property name="hibernate.connection.password" value="test"/>
+      <property name="hibernate.connection.url" value="jdbc:oracle:thin:@tbvsrv.vniia.net:1521:vniiatest"/>
+      <property name="hibernate.connection.driver_class" value="oracle.jdbc.driver.OracleDriver"/>
+      <property name="hibernate.log.level" value="FINE"/>
+    </properties>
+  </persistence-unit>
+  
+    <persistence-unit name="SKY" transaction-type="JTA">
+    <jta-data-source>jdbc/msys1</jta-data-source>
+    <!-- provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>-->
+    <class>model.all.VPersonal</class>    
+    <class>model.msysAdmin.VAppModule</class>
+    <class>model.msysAdmin.VApplications</class>
+    <class>model.msysAdmin.VApps</class>
+    <class>model.msysAdmin.VMenu</class>
+    <class>model.msysAdmin.VModules</class>
+    <class>model.msysAdmin.VPrivs</class>
+    <class>model.msysAdmin.VRoles</class>
+    <class>model.msysAdmin.VSetup</class>
+    <class>model.msysAdmin.VUsers</class>
+    <class>model.msysAdmin.VWorkbenches</class>
+    <exclude-unlisted-classes>true</exclude-unlisted-classes>
+    <properties>
+      <property name="hibernate.connection.username" value="Data_Exchange"/>
+      <property name="hibernate.connection.password" value="Exchange"/>
+      <property name="hibernate.connection.url" value="jdbc:oracle:thin:@sky.vniia.net:1521:db35"/>
+      <property name="hibernate.connection.driver_class" value="oracle.jdbc.driver.OracleDriver"/>
+      <property name="hibernate.log.level" value="FINE"/>
+    </properties>
+  </persistence-unit>  
+  
+    <persistence-unit name="FOS" transaction-type="JTA">
+    <jta-data-source>jdbc/msys2</jta-data-source>
+    <!-- provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>-->
+    <class>model.all.VPersonal</class>    
+    <class>model.msysAdmin.VAppModule</class>
+    <class>model.msysAdmin.VApplications</class>
+    <class>model.msysAdmin.VApps</class>
+    <class>model.msysAdmin.VMenu</class>
+    <class>model.msysAdmin.VModules</class>
+    <class>model.msysAdmin.VPrivs</class>
+    <class>model.msysAdmin.VRoles</class>
+    <class>model.msysAdmin.VSetup</class>
+    <class>model.msysAdmin.VUsers</class>
+    <class>model.msysAdmin.VWorkbenches</class>
+    <exclude-unlisted-classes>true</exclude-unlisted-classes>
+    <properties>
+      <property name="hibernate.connection.username" value="Data_Exchange"/>
+      <property name="hibernate.connection.password" value="Exchange"/>
+      <property name="hibernate.connection.url" value="jdbc:oracle:thin:@fos.vniia.net:1521:erpwork"/>
+      <property name="hibernate.connection.driver_class" value="oracle.jdbc.driver.OracleDriver"/>
+      <property name="hibernate.log.level" value="FINE"/>
+    </properties>
+  </persistence-unit>    
+  
+    <persistence-unit name="OS2" transaction-type="JTA">
+    <jta-data-source>jdbc/OS2</jta-data-source>
+    <!-- no msys_all -->    
+    <class>model.umr.VIndustrialPgms</class>
+    <class>model.umr.PgmModule</class>
+    <exclude-unlisted-classes>true</exclude-unlisted-classes>
+    <properties>
+      <property name="hibernate.connection.username" value="Data_Exchange"/>
+      <property name="hibernate.connection.password" value="Exchange"/>
+      <property name="hibernate.connection.url" value="jdbc:oracle:thin:@os2.vniia.net:1521:vorkvniia"/>
+      <property name="hibernate.connection.driver_class" value="oracle.jdbc.driver.OracleDriver"/>
+      <property name="hibernate.log.level" value="FINE"/>
+    </properties>
+  </persistence-unit>
+  
+</persistence>

@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+filesCopiedToWebInfLib=
+gaeDatanucleusEnabled=false
+gaeDatanucleusVersion=v2
+gaeHrdEnabled=true
+googleCloudSqlEnabled=false
+localDevMySqlEnabled=true
+validationExclusions=src/ru/spec/gwt/server/GreetingServiceImpl.java|src/ru/star/gwt/server/GreetingServiceImpl.java

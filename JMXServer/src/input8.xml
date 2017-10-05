@@ -1,0 +1,45 @@
+#jdk 1.8
+#Wed Jul 29 10:02:39 MSK 2015
+PROCESSOR_ARCHITECTURE=AMD64
+FP_NO_HOST_CHECK=NO
+windows_tracing_flags=3
+ProgramData=C\:\\ProgramData
+CommonProgramFiles(x86)=C\:\\Program Files (x86)\\Common Files
+TMP=C\:\\Users\\35-khei\\AppData\\Local\\Temp
+COMPUTERNAME=35-KHEI
+OS=Windows_NT
+\=\:\:=\:\:\\
+ProgramW6432=C\:\\Program Files
+SystemDrive=C\:
+HOMEDRIVE=C\:
+LOGONSERVER=\\\\GDC
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
+PSModulePath=C\:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\
+ProgramFiles=C\:\\Program Files
+JAVA_PATH=C\:\\Program Files\\Java\\jdk1.6.0_45
+windows_tracing_logfile=C\:\\BVTBin\\Tests\\installpackage\\csilogfile.log
+ProgramFiles(x86)=C\:\\Program Files (x86)
+NUMBER_OF_PROCESSORS=4
+TEMP=C\:\\Users\\35-khei\\AppData\\Local\\Temp
+USERDOMAIN=VNIIA
+PROCESSOR_LEVEL=6
+USERDNSDOMAIN=VNIIA.NET
+VSEDEFLOGDIR=C\:\\ProgramData\\McAfee\\DesktopProtection
+Path=C\:\\ProgramData\\Oracle\\Java\\javapath;C\:\\Windows\\system32;C\:\\Windows;C\:\\Windows\\System32\\Wbem;C\:\\Windows\\System32\\WindowsPowerShell\\v1.0\\%C\:\\Program Files\\Java\\jdk1.8.0_31\\bin
+VBOX_MSI_INSTALL_PATH=C\:\\Program Files\\Oracle\\VirtualBox\\
+SESSIONNAME=Console
+USERNAME=35-khei
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+CommonProgramW6432=C\:\\Program Files\\Common Files
+DEFLOGDIR=C\:\\ProgramData\\McAfee\\DesktopProtection
+ComSpec=C\:\\Windows\\system32\\cmd.exe
+SystemRoot=C\:\\Windows
+windir=C\:\\Windows
+PUBLIC=C\:\\Users\\Public
+PROCESSOR_REVISION=3a09
+USERPROFILE=C\:\\Users\\35-khei
+CommonProgramFiles=C\:\\Program Files\\Common Files
+APPDATA=C\:\\Users\\35-khei\\AppData\\Roaming
+HOMEPATH=\\Users\\35-khei
+LOCALAPPDATA=C\:\\Users\\35-khei\\AppData\\Local
+ALLUSERSPROFILE=C\:\\ProgramData

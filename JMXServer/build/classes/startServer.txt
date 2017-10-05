@@ -1,0 +1,4 @@
+
+
+"C:\Program Files\Java\jdk1.8.0_31\bin\rmiregistry.exe" 9999 &
+"C:\Program Files\Java\jdk1.8.0_31\bin\java" -cp clientRMI;serverRMI;.  -Djavax.net.ssl.keyStore=config/keystore -Djavax.net.ssl.keyStorePassword=password  Server

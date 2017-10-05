@@ -1,0 +1,20 @@
+#!/bin/bash
+rmipath="/mnt/javaSoft/workspace/Desktop/RMI/src/"
+#javac -cp root:serverRMI:clientRMI:${rmipath}:. Server.java
+javac -cp root:serverRMI:clientRMI:.:guava-18.0.jar:commons-net-3.3.jar\
+	${rmipath}root/*.java \
+	${rmipath}clientRMI/*.java \
+	${rmipath}serverRMI/*.java \
+	Server.java
+	
+javac -cp root:serverRMI:clientRMI:.:guava-18.0.jar:commons-net-3.3.jar\
+	${rmipath}root/*.java \
+	${rmipath}clientRMI/*.java \
+	${rmipath}serverRMI/*.java \
+	ServiceUpdater.java
+	
+#jar 	uf RMI/guava-18.0.jar \
+#	Server.class\
+#	${rmipath}root/*.class \
+#	${rmipath}clientRMI/*.class \
+#	${rmipath}serverRMI/*.class \	

@@ -1,0 +1,65 @@
+#jdk 1.8
+#Wed Jul 29 08:52:58 GMT 2015
+DISPLAY=\:0.0
+ZLE_LINE_ABORTED=
+SSH_AUTH_SOCK=/tmp/gpg-Fz26z9/S.gpg-agent.ssh
+LESSOPEN=|lesspipe.sh %s
+G_BROKEN_FILENAMES=1
+XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt
+GLADE_PIXMAP_PATH=\:/usr/lib64/glade3/modules
+MINICOM=-c on
+PATH=/usr/local/bin\:/usr/bin\:/bin\:/usr/games\:/usr/local/java/bin\:/usr/lib64/kde4/libexec\:/usr/lib64/qt/bin\:/usr/share/texmf/bin\:.\:/sbin\:/usr/sbin\:/usr/bin\:/sbin\:/usr/sbin\:/usr/bin
+LOGNAME=zheka
+COLORTERM=xfce4-terminal
+SHLVL=4
+HISTSIZE=5000
+KDEDIRS=/usr
+DESKTOP_SESSION=xfce
+T1LIB_CONFIG=/usr/share/t1lib/t1lib.config
+SHELL=/bin/zsh
+LESS=-M
+INPUTRC=/etc/inputrc
+SAVEHIST=5000
+DIRDISTR=/mnt/distr
+HOSTNAME=virtual-pc..\nvbox\nlocalhost/127.0.0.1
+PROMPT=%B[%n@%m]$%b 
+XDG_CONFIG_DIRS=/etc/xdg\:/etc/kde/xdg\:/etc/xdg
+SESSION_MANAGER=local/virtual-pc\:@/tmp/.ICE-unix/874,unix/virtual-pc\:/tmp/.ICE-unix/874
+HISTFILE=/home/zheka/.zsh_history
+LC_COLLATE=C
+WINDOWID=56623108
+HUSHLOGIN=FALSE
+MAIL=/var/spool/mail/zheka
+LANG=ru_RU.utf8
+LS_COLORS=no\=00\:fi\=00\:di\=01;34\:ln\=01;36\:pi\=40;33\:so\=01;35\:do\=01;35\:bd\=40;33;01\:cd\=40;33;01\:or\=40;31;01\:su\=37;41\:sg\=30;43\:ca\=30;41\:tw\=30;42\:ow\=34;42\:st\=37;44\:ex\=01;32\:*.bat\=01;32\:*.BAT\=01;32\:*.btm\=01;32\:*.BTM\=01;32\:*.cmd\=01;32\:*.CMD\=01;32\:*.com\=01;32\:*.COM\=01;32\:*.dll\=01;32\:*.DLL\=01;32\:*.exe\=01;32\:*.EXE\=01;32\:*.7z\=01;31\:*.ace\=01;31\:*.ACE\=01;31\:*.arj\=01;31\:*.bz2\=01;31\:*.cpio\=01;31\:*.deb\=01;31\:*.dz\=01;31\:*.gz\=01;31\:*.jar\=01;31\:*.lzh\=01;31\:*.lzma\=01;31\:*.rar\=01;31\:*.RAR\=01;31\:*.rpm\=01;31\:*.rz\=01;31\:*.tar\=01;31\:*.taz\=01;31\:*.tb2\=01;31\:*.tbz2\=01;31\:*.tbz\=01;31\:*.tgz\=01;31\:*.tlz\=01;31\:*.trz\=01;31\:*.txz\=01;31\:*.tz\=01;31\:*.tz2\=01;31\:*.xz\=01;31\:*.z\=01;31\:*.Z\=01;31\:*.zip\=01;31\:*.ZIP\=01;31\:*.zoo\=01;31\:*.aac\=01;35\:*.AAC\=01;35\:*.anx\=01;35\:*.asf\=01;35\:*.ASF\=01;35\:*.au\=01;35\:*.axa\=01;35\:*.axv\=01;35\:*.avi\=01;35\:*.AVI\=01;35\:*.bmp\=01;35\:*.BMP\=01;35\:*.divx\=01;35\:*.DIVX\=01;35\:*.flac\=01;35\:*.FLAC\=01;35\:*.gif\=01;35\:*.GIF\=01;35\:*.jpg\=01;35\:*.JPG\=01;35\:*.jpeg\=01;35\:*.JPEG\=01;35\:*.m2a\=01;35\:*.M2A\=01;35\:*.m2v\=01;35\:*.M2V\=01;35\:*.m4a\=01;35\:*.M4A\=01;35\:*.m4p\=01;35\:*.M4P\=01;35\:*.m4v\=01;35\:*.M4V\=01;35\:*.mid\=01;35\:*.midi\=01;35\:*.mka\=01;35\:*.mkv\=01;35\:*.MKV\=01;35\:*.mov\=01;35\:*.MOV\=01;35\:*.mp3\=01;35\:*.MP3\=01;35\:*.mp4\=01;35\:*.MP4\=01;35\:*.mp4v\=01;35\:*.mpc\=01;35\:*.MPC\=01;35\:*.mpeg\=01;35\:*.MPEG\=01;35\:*.mpg\=01;35\:*.MPG\=01;35\:*.nuv\=01;35\:*.oga\=01;35\:*.ogv\=01;35\:*.ogx\=01;35\:*.ogg\=01;35\:*.OGG\=01;35\:*.pbm\=01;35\:*.pgm\=01;35\:*.png\=01;35\:*.PNG\=01;35\:*.ppm\=01;35\:*.qt\=01;35\:*.ra\=01;35\:*.RA\=01;35\:*.ram\=01;35\:*.RAM\=01;35\:*.rm\=01;35\:*.RM\=01;35\:*.spx\=01;35\:*.svg\=01;35\:*.svgz\=01;35\:*.tga\=01;35\:*.TGA\=01;35\:*.tif\=01;35\:*.TIF\=01;35\:*.tiff\=01;35\:*.TIFF\=01;35\:*.vob\=01;35\:*.VOB\=01;35\:*.wav\=01;35\:*.WAV\=01;35\:*.wma\=01;35\:*.WMA\=01;35\:*.wmv\=01;35\:*.WMV\=01;35\:*.xbm\=01;35\:*.xcf\=01;35\:*.xpm\=01;35\:*.xspf\=01;35\:*.xwd\=01;35\:*.XWD\=01;35\:*.xvid\=01;35\:
+LD_LIBRARY_PATH=/usr/local/jdk1.6.0_45/jre/lib/amd64/server\:/usr/local/jdk1.6.0_45/jre/lib/amd64\:/usr/local/jdk1.6.0_45/jre/../lib/amd64
+GLADE_MODULE_PATH=\:/usr/share/glade3/pixmaps
+GLADE_CATALOG_PATH=\:/usr/share/glade3/catalogs
+MANPATH=/usr/local/man\:/usr/man\:/usr/local/java/man\:/usr/share/texmf/man
+GPG_AGENT_INFO=/tmp/gpg-OxOO4A/S.gpg-agent\:883\:1
+M2_HOME=/usr/share/maven
+HOME=/home/zheka
+WINDOWPATH=7
+HZ=100
+RPROMPT=%~%
+LS_OPTIONS=-F -b -T 0 --color\=auto
+DBUS_SESSION_BUS_ADDRESS=unix\:abstract\=/tmp/dbus-Sxzl6kg3P5,guid\=9f1b355085de7a31aaee267b55b8761c
+DIRSOFT=/mnt/javaSoft
+MYSCRIPTDIR=/home/zheka/myscripts
+QT4DIR=/usr/lib64/qt
+PWD=/mnt/javaSoft/workspace/Desktop/jmx_examples/Security/simple/JMXServer/src
+G_FILENAME_ENCODING=@locale
+XDG_DATA_DIRS=/usr/local/share\:/usr/share
+GDK_USE_XFT=1
+XDG_MENU_PREFIX=xfce-
+CPLUS_INCLUDE_PATH=/usr/lib64/qt/include
+NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat
+USER=zheka
+COLLECTDIR=/home/zheka/DownloadPkg
+JAVA_HOME=/usr/local/java
+PKG_CONFIG_PATH=/usr/local/lib64/pkgconfig\:/usr/lib64/pkgconfig
+TERM=xterm
+JETTY_HOME9=/home/zheka/workspace/java3/HohryakovEvgenii/home/jetty-distribution-9.2.2.v20140723
+SSH_AGENT_PID=883
+JETTY_HOME8=/home/zheka/workspace/java3/HohryakovEvgenii/home/jetty-distribution-8.1.15.v20140411
+_=/usr/local/java/bin/java

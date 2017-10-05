@@ -1,0 +1,3 @@
+#!/bin/bash
+rm -rf clientRMI root serverRMI
+cp -R ~/backup/clientRMI ~/backup/serverRMI ~/backup/root .

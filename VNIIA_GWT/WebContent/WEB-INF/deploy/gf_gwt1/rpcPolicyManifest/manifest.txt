@@ -1,0 +1,3 @@
+# Module gf_gwt1
+# RPC service class, partial path of RPC policy file
+ru.vniia.client.GreetingService, B64F2AACDC5D1AEBEF0D87F89B136567.gwt.rpc

@@ -1,0 +1,9 @@
+#!/bin/bash
+rmipath="/mnt/javaSoft/workspace/Desktop/RMI/src/"
+
+java -classpath \
+${rmipath}clientRMI:${rmipath}serverRMI:${rmipath}:. \
+     -Djavax.net.ssl.keyStore=config/keystore \
+     -Djavax.net.ssl.keyStorePassword=password \
+     Server "6" "/usr/local/java/bin/rmiregistry" $1 $2 &
+

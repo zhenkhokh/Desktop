@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>jdk 1.8</comment>
+<entry key="PROCESSOR_ARCHITECTURE">AMD64</entry>
+<entry key="FP_NO_HOST_CHECK">NO</entry>
+<entry key="windows_tracing_flags">3</entry>
+<entry key="ProgramData">C:\ProgramData</entry>
+<entry key="CommonProgramFiles(x86)">C:\Program Files (x86)\Common Files</entry>
+<entry key="TMP">C:\Users\35-khei\AppData\Local\Temp</entry>
+<entry key="COMPUTERNAME">35-KHEI</entry>
+<entry key="OS">Windows_NT</entry>
+<entry key="=::">::\</entry>
+<entry key="ProgramW6432">C:\Program Files</entry>
+<entry key="SystemDrive">C:</entry>
+<entry key="HOMEDRIVE">C:</entry>
+<entry key="LOGONSERVER">\\GDC</entry>
+<entry key="PROCESSOR_IDENTIFIER">Intel64 Family 6 Model 58 Stepping 9, GenuineIntel</entry>
+<entry key="PSModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\</entry>
+<entry key="ProgramFiles">C:\Program Files</entry>
+<entry key="windows_tracing_logfile">C:\BVTBin\Tests\installpackage\csilogfile.log</entry>
+<entry key="ProgramFiles(x86)">C:\Program Files (x86)</entry>
+<entry key="NUMBER_OF_PROCESSORS">4</entry>
+<entry key="TEMP">C:\Users\35-khei\AppData\Local\Temp</entry>
+<entry key="USERDOMAIN">VNIIA</entry>
+<entry key="PROCESSOR_LEVEL">6</entry>
+<entry key="USERDNSDOMAIN">VNIIA.NET</entry>
+<entry key="VSEDEFLOGDIR">C:\ProgramData\McAfee\DesktopProtection</entry>
+<entry key="Path">C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\%C:\Program Files\Java\jdk1.8.0_31\bin</entry>
+<entry key="VBOX_MSI_INSTALL_PATH">C:\Program Files\Oracle\VirtualBox\</entry>
+<entry key="SESSIONNAME">Console</entry>
+<entry key="USERNAME">35-khei</entry>
+<entry key="PATHEXT">.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC</entry>
+<entry key="CommonProgramW6432">C:\Program Files\Common Files</entry>
+<entry key="DEFLOGDIR">C:\ProgramData\McAfee\DesktopProtection</entry>
+<entry key="ComSpec">C:\Windows\system32\cmd.exe</entry>
+<entry key="SystemRoot">C:\Windows</entry>
+<entry key="windir">C:\Windows</entry>
+<entry key="PUBLIC">C:\Users\Public</entry>
+<entry key="PROCESSOR_REVISION">3a09</entry>
+<entry key="USERPROFILE">C:\Users\35-khei</entry>
+<entry key="CommonProgramFiles">C:\Program Files\Common Files</entry>
+<entry key="APPDATA">C:\Users\35-khei\AppData\Roaming</entry>
+<entry key="HOMEPATH">\Users\35-khei</entry>
+<entry key="LOCALAPPDATA">C:\Users\35-khei\AppData\Local</entry>
+<entry key="ALLUSERSPROFILE">C:\ProgramData</entry>
+</properties>

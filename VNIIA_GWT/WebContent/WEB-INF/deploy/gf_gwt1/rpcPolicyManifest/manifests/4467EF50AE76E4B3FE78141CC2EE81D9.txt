@@ -1,0 +1,2 @@
+serviceClass: ru.vniia.client.GreetingService
+path: B55E44CD13C10630D0DA5108F61497A1.gwt.rpc

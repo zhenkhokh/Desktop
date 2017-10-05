@@ -1,0 +1,3 @@
+# Module gf_gwt1
+# RPC service class, partial path of RPC policy file
+ru.spec.gwt.client.GreetingService, AA61E04538A0269258976187956ECD3F.gwt.rpc

@@ -1,0 +1,2 @@
+22=\\\\LH4\\Adabas\\Fuserkmn\\KMN\\gp\\
+30=\\\\FileServer\\35-Soft\\KTI\\LOAD_KTI\\

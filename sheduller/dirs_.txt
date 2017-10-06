@@ -1,0 +1,48 @@
+\\FileServer\35-Soft\WB\
+\\fileserver\35-Soft\UMR-VIEW\
+\\FileServer\35-Soft\ET\
+\\FileServer\Soft\OS\
+\\fileserver\35-Soft\Комплектация 2\COMPLECTASYA-2\COMPLECTASYA-2\bin\Debug\
+\\FileServer\35-Soft\UMR\
+\\fileserver\35-soft\SkladUch\
+\\fileserver\35-Soft\ОСП\Topology\
+\\FileServer\35-Soft\ОСП\
+\\FileServer\35-Soft\ОСП\
+\\fileserver\35-Soft\ОСП\b-125\
+\\fileserver\35-Soft\ОСП\КС\
+\\Fileserver\35-soft\ОСП\
+\\FILESERVER\35-Soft\ОСП\
+\\Fileserver\35-soft\ОСП\
+\\FileServer\35-Soft\СПВП\
+\\FileServer\35-Soft\KTI\
+\\FileServer\35-Soft\KTI\
+\\FileServer\35-Soft\KTI\
+\\FileServer\35-Soft\KTI\
+\\FileServer\35-Soft\KTI\
+\\LH4\Adabas\Fuserkmn\KMN\gp\
+\\FileServer\SURV\
+\\fileserver\ManufacturingSoft\BDIP\BDIP_test\переделываемая версия\рабочая\
+\\FileServer\35-Soft\СПВП\
+\\fileserver\35-Soft\os40\
+\\fileserver\35-Soft\equip\
+\\fileserver\35-Soft\Labels\
+\\FileServer\35-Soft\ОСП\
+\\FileServer\35-Soft\KTI\LOAD_KTI\
+\\FileServer\35-Soft\ОСП\
+\\Fileserver\35-Soft\OTD\
+\\fileserver\35-SOFT\КАН_Журнал\
+\\Fileserver\manufacturingsoft\Osnastka\
+\\Fileserver\manufacturingsoft\BDIP\
+\\fileserver\Prgman\Управление проектами\
+\\Fileserver\35-Soft\Alfa\Alfa\Система Alfa 4.1.38.5\Alfa-Administrator\
+\\Fileserver\35-soft\Метрология\
+\\fileserver\Prgman\Администратор\
+\\Fileserver\fox9$\Alfa\
+\\Fileserver\fox9$\Alfa\
+\\Fileserver\35-soft\ИПС Архив\
+\\fileserver\Prgman\Документооборот\
+\\PDM\IM_TechCard\TechCard\
+\\Fileserver\35-soft\ERP\
+\\Fileserver\manufacturingsoft\Custom\
+\\Fileserver\PrgMan\Контрагенты\MSYS\
+\\fileserver\35-Soft\Справочник ГП\Справочник готовой продукции\SGP\bin\Debug\

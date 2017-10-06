@@ -1,0 +1,3 @@
+36=35-soft/Alfa/Alfa/CMD/EXE/
+39=35-soft/Alfa/Alfa/CMD/EXE/
+40=35-soft/Alfa/Alfa/CMD/EXE/

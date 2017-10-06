@@ -1,0 +1,3 @@
+36=AlfaAdmin
+39=SALARY
+40=HRM

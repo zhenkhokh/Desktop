@@ -1,0 +1,3 @@
+36=exe\Administrator.exe OCIDLL=..\instantclient\oci.dll.
+39=salary.exe
+40=hrm.exe

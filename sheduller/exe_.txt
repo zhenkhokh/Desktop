@@ -1,0 +1,48 @@
+WB.exe
+umr_view.exe
+ET.exe
+ARM_OS.exe
+App.exe
+AC_UMR.exe
+KZ_SU.exe
+Topology.exe
+Plan_DSE.exe
+BD_MK.exe
+Waybill.exe
+KS.exe
+Main_production.exe
+ceh10term.exe
+Matrix.exe
+SPVP.exe
+Sostav_view.exe
+JUKD.exe
+AppPrimen.exe
+USostav.exe
+armrasch.exe
+Kmn.exe
+Surv.exe
+BDIP.exe
+Spvp_search.exe
+os40_.exe
+Equipment.exe
+Labels.exe
+Planzad.exe
+ARM_PRJ.exe
+KS.exe
+Registration.exe
+БД ведения КАН.exe
+Osnastka.exe
+BDIP.exe
+MSYS Управление проектами.exe
+Administrator.exe
+Metrologia.exe
+MSYS Администратор.exe
+SALARY.EXE
+HRM.EXE
+ArchiveDoc_new.exe
+MSYS Документооборот.exe
+TPDesign.exe
+Vniia.Erp.UI.Main.exe
+Справочник заказов.exe
+Контрагенты.exe
+SGP.exe
